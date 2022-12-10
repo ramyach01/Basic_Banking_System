@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.bgr{
+    background-image: url("https://th.bing.com/th/id/R.a0143406be13cd97093859c67d2e3a73?rik=SHQ5RsZgwoD5Ow&riu=http%3a%2f%2fpngimg.com%2fuploads%2ffalling_money%2ffalling_money_PNG15429.png&ehk=aTgmCZ0keSSyWsyu2sa2ua4eEsuer2JhcuXPReGXaKE%3d&risl=&pid=ImgRaw&r=0");
+}
+/* navbar css starts here  */
+.bg-light{
+    background-color: #4ddadd!important;
+}
+.navbg{
+    background-color: #358fa8!important;
+}
+.navbar-brand{   
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3rem;
+    padding-left: 800px;
+    color: #040405!important;
+}
+
+.nav-link{
+    color: #010304!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding:5px;
+}
+.nav-item{
+    color: #010304!important;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding:5px;
+}
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(82, 47, 147)!important;
+    color: #fff!important;
+    font-size:25px;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+}
+
+.btn-info:hover{
+    background-color: rgb(144, 79, 205)!important;
+}
+
+.table-danger, .table-danger>td, .table-danger>th {
+ 
+    padding:20px;
+    background-color: #0b56a1;
+    color:white;
+}
+ .table-danger :hover {
+    background-color: #c7e075;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: #61a7d0;
+    color:white;
+}
+.table-light,.table-light>td{
+    color: rgb(0, 0, 0)!important;
+    background-color: #b3e8ee;
+}
+.table-light:hover,.table-light>th  :hover{
+    background-color: #e2cee7;
+}
+.table-info:hover ,.table-info>th :hover{
+    background-color: rgb(255, 255, 255);
+}

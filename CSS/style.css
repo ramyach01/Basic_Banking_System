@@ -1,0 +1,145 @@
+html{
+    padding: 0;
+    margin: 0;
+   
+}
+
+body{
+    
+    font-family: 'Roboto', sans-serif;
+    color:black;
+}
+
+/* splash screen css starts here  */
+#loading{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: #e4eff2 url("https://media.giphy.com/media/xTk9ZvMnbIiIew7IpW/giphy.gif") no-repeat center center;
+    z-index: 99999;
+}
+/* splash screen css ends here  */
+.bg{
+    background-size: 2000px 910px;
+   background-image: url("https://nelsongalbreath.com/wp-content/uploads/2020/06/bank-background.png"); 
+   background-repeat: no-repeat;
+   
+}
+.cent{
+    color:black;
+}
+.cen{
+     text-align: center;
+     align-self:center;
+}
+/* navbar css starts here  */
+.bg-light{
+    background-color: #70c0ee!important;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 3rem;
+    color: #040405!important;
+}
+
+.nav-link{
+    color: #052c5c!important;
+    font-size: 1.5rem;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #f3f1f1;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100vh;
+    
+    color: #ffffff;
+    padding: 3rem;
+    border-bottom-left-radius: 45rem;
+    border-bottom-right-radius: 45rem;
+    margin-bottom: 1vh;
+    padding-right:1em;
+}
+.spfimg{
+    align-self: center;
+    height:100px;
+    padding:5px;
+    padding-left:700px;
+    padding-bottom: 25px;
+}
+.hero-img{
+    height:303px;
+    width:1066px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: rgb(18, 31, 147);
+    color: rgb(255,255,255)!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #cf78ec;
+    
+}
+/* here content css starts here  */
+
+/* get-started-buttons css starts here*/
+.get-started-content{
+    height: 60vh;
+    background-color: #703a29;
+    border-top-left-radius: 42rem;
+    border-top-right-radius: 42rem;
+    border-bottom-right-radius: 42rem;
+    border-bottom-left-radius: 42rem;
+}
+
+.get-started-content .row{
+    padding: 25vh 0;
+}
+
+.get-started-content a{
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: #039be5;
+    color: rgb(0,0,0)!important;
+    transition: 0.3s;
+}
+
+.get-started-content a:hover{
+    background-color: #017ab6;
+    text-decoration: none;
+}
+/* get-started-buttons css end here*/
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+
+
+
+/* footer css ends here  */
