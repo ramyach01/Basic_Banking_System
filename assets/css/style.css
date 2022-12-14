@@ -3,13 +3,11 @@ html{
     margin: 0;
    
 }
-
 body{
     
     font-family: 'Roboto', sans-serif;
     color:black;
 }
-
 /* splash screen css starts here  */
 #loading{
     position: fixed;
@@ -20,7 +18,7 @@ body{
 }
 /* splash screen css ends here  */
 .bg{
-    background-size: 2000px 910px;
+   
    background-image: url("https://nelsongalbreath.com/wp-content/uploads/2020/06/bank-background.png"); 
    background-repeat: no-repeat;
    
@@ -57,12 +55,10 @@ body{
 /* here content css starts here  */
 .hero-content{
     height: 100vh;
-    
     color: #ffffff;
     padding: 3rem;
     border-bottom-left-radius: 45rem;
     border-bottom-right-radius: 45rem;
-    margin-bottom: 1vh;
     padding-right:1em;
 }
 .spfimg{
@@ -126,20 +122,38 @@ body{
     background-color: #017ab6;
     text-decoration: none;
 }
+.container-fluid{
+    margin-bottom:0px;
+    padding:0px;
+}
+.col-md-6{
+    padding-top:70px;
+}
+.col-md-7{
+    max-width: 100%;
+    text-align: center;
+    padding-top:20px;
+}
 /* get-started-buttons css end here*/
 
 /* footer css starts here */
 footer{
-    background-color:  #f2e9e4;
+    padding-top: 0px;
+    color:white;
+    background-color:  #0c0500;
 }
-
+.row{
+    font-size: 25px;
+}
+.row1{
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 10px;
+}
 .social-icons li{
     list-style: none;
     display: inline;
     padding: 0.5rem;
 }
-
-
-
 
 /* footer css ends here  */
